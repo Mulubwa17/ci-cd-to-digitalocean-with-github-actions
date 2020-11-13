@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
      
           script: |
-            mkdir test #create folder you want to deploy to in the live server
-            cd test #enter or cd into the folder
-            git clone git@github.com:Mulubwa17/ci-cd-to-digitalocean-with-github-actions.git #clone the repository into te folder
-            echo 'Deployment successful to digital ocean' #Message to be displayed when deployment is successful
+            mkdir test 
+            cd test 
+            git clone git@github.com:Mulubwa17/ci-cd-to-digitalocean-with-github-actions.git 
+            echo 'Deployment successful to digital ocean' 
